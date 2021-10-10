@@ -1,5 +1,6 @@
+import React from 'react'
+
 import AddTdL from "./components/Task/AddTdL";
-import CardTdL from "./components/Task/CardTdL";
 
 
 function App() {
@@ -9,12 +10,6 @@ function App() {
       <div className="row">
         <div className="col">
           <AddTdL />
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col ">
-          <CardTdL />
         </div>
       </div>
     </div>
